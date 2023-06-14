@@ -1,0 +1,142 @@
+footer {
+  margin-top: 3.2rem;
+  background-color: var(--primary-color);
+  color: var(--gray-color);
+}
+
+.footer__intro {
+  margin-top: 3.1rem;
+  margin-bottom: 2.5rem;
+  font-size: 26px;
+}
+
+.footer__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__form {
+  position: relative;
+  margin-bottom: 4.5rem;
+  p {
+    position: relative;
+    z-index: 3;
+    font-family: "Grilroy-Semibold";
+    font-size: 2.8rem;
+  }
+  ::before {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    content: "";
+    background-color: var(--accent-color);
+    width: 15.5rem;
+    height: 3px;
+    z-index: 0;
+  }
+
+  ::after {
+    position: absolute;
+    content: url(arrow.svg);
+    top: 11.5px;
+    right: -46px;
+  }
+}
+
+.our__location {
+  display: flex;
+  padding: 4.6rem 0;
+  width: 100%;
+  background-image: url(footer-worldmap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+}
+
+.white__box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--gray-color);
+  color: var(--primary-color);
+
+  ::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    transform: translateX(50%);
+    right: 50%;
+    width: 0;
+    height: 0;
+    border: 15px solid;
+    border-top-color: var(--gray-color);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  p {
+    margin-left: 0.65rem;
+  }
+}
+
+.point {
+  width: 1rem;
+  height: 1rem;
+  background: var(--accent-color);
+  border-radius: 50%;
+  margin-bottom: 9.5rem;
+  border: 3px #ac17174a solid;
+}
+
+.social__media {
+  margin-bottom: 6.25rem;
+  p {
+    margin-bottom: 1.25rem;
+  }
+}
+
+.social-media-icons__grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+  column-gap: 0.75rem;
+}
+
+// @media only screen and (max-width: 1200px) {
+//   footer {
+//     font-size: 16px;
+//   }
+//   .white__box {
+//     font-size: 1.2rem;
+//   }
+
+//   .white__box > img {
+//     padding: 0;
+//   }
+// }
+
+// @media only screen and (max-width: 425px) {
+//   .white__box {
+//     font-size: 1rem;
+//   }
+
+//   .white__box > img {
+//     width: 2rem;
+//     padding: 0;
+//   }
+// }
+// @media only screen and (max-width: 340px) {
+//   .white__box > img {
+//     width: 1.7rem;
+//   }
+// }

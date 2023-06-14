@@ -1,0 +1,37 @@
+.header {
+  margin-top: 3.4rem;
+  margin-bottom: 9.5rem;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Gilroy-Medium", sans-serif;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+}
+
+.nav__bar {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.nav-lng__btn {
+  color: var(--primary-color);
+  width: 45px;
+  height: 38px;
+  text-align: center;
+  margin-left: 8rem;
+  border: 1px solid var(--primary-color);
+}/*# sourceMappingURL=Navigation.css.map */

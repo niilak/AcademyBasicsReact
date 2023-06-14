@@ -1,0 +1,21 @@
+.font-100 {
+  font-size: 100px;
+}
+
+.font-72 {
+  font-size: 72px;
+}
+
+.header-title {
+  font-family: "Butler-Regular";
+  font-weight: normal;
+  text-align: center;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.white {
+  color: var(--white);
+}/*# sourceMappingURL=header.css.map */

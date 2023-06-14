@@ -1,0 +1,17 @@
+.intro__container {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6.8rem;
+  margin-top: 2rem;
+}
+.intro__container img {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.intro__container p {
+  opacity: 0.8;
+}/*# sourceMappingURL=Intro.css.map */

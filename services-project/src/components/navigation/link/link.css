@@ -1,0 +1,16 @@
+.nav__links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 1;
+}
+
+.nav__link {
+  color: var(--primary-color);
+  padding: 0 5px 15px 5px;
+}
+.nav__link :hover {
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 12px;
+}/*# sourceMappingURL=link.css.map */
