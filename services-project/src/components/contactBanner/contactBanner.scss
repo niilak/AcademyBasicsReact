@@ -1,0 +1,24 @@
+.contact-banner__container {
+  padding: 1.5rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+  background-color: var(--primary-color);
+  height: 18rem;
+  width: 100%;
+
+  p {
+    margin-bottom: 1rem;
+    opacity: 0.8;
+    font-size: 22px;
+  }
+
+  &::before {
+    position: absolute;
+    content: url("Group1052.png");
+    bottom: -88px;
+    right: 88px;
+  }
+}
