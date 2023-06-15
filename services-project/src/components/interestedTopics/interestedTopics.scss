@@ -11,3 +11,37 @@
   justify-content: center;
   margin-top: 5rem;
 }
+
+@media only screen and (max-width: 1200px) {
+  .intereseted-topic__container {
+    grid-template-columns: 30% 30% 30%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .intereseted-topic__container {
+    grid-template-columns: 65%;
+    grid-template-rows: auto auto auto;
+    row-gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .intereseted-topic__container {
+    grid-template-columns: 80%;
+    grid-template-rows: auto auto auto;
+    row-gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intereseted-topic__container {
+    grid-template-columns: 88%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .intereseted-topic__container {
+    grid-template-columns: 94%;
+  }
+}
