@@ -21,6 +21,7 @@
 @media only screen and (max-width: 1400px) {
   .intro__container {
     width: 70%;
+    margin-bottom: 8rem;
   }
   .intro__container img {
     width: 85%;
@@ -48,4 +49,4 @@
     margin-top: 6rem;
     width: 95%;
   }
-}/*# sourceMappingURL=Intro.css.map */
+}/*# sourceMappingURL=intro.css.map */

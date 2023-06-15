@@ -1,10 +1,9 @@
 .product__container {
-  width: 48%;
+  width: 100%;
   text-align: center;
   box-shadow: 0px 0px 50px rgba(103, 133, 158, 0.1490196078);
   border-radius: 24px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding: 1.5rem 1rem;
 }
 .product__container img {
   width: 80%;
@@ -14,7 +13,7 @@
   font-size: 20px;
 }
 
-.green-line {
+.line {
   width: 3.12rem;
   height: 0.25rem;
   display: block;
@@ -22,4 +21,4 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
-} /*# sourceMappingURL=product.css.map */
+}/*# sourceMappingURL=product.css.map */
