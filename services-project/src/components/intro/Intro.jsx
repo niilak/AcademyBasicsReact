@@ -1,11 +1,13 @@
-import Header01 from "../title/header01";
+import Header01 from "../shared/title/header01";
+
 import "./intro.css";
 
 function Intro() {
   return (
-    <div className="container ">
-      <Header01 text={"Software development"} />
+    <div className="container">
       <div className="intro__container">
+        <Header01 text={"Software development"} />
+
         <img src="group1045.png" alt="Web Development"></img>
         <p>
           We are one of the few companies which create their own products, and

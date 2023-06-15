@@ -1,4 +1,4 @@
-import Header02 from "../title/Header02";
+import Header02 from "../shared/title/Header02";
 import ContactButton from "../shared/contactBtn/ContactBtn";
 
 import "./contactBanner.css";

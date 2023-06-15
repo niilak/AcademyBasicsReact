@@ -1,0 +1,31 @@
+.header01 {
+  font-size: 6.25rem;
+}
+
+.header02 {
+  font-size: 4.5rem;
+}
+
+.header-title {
+  font-family: "Butler-Light";
+  font-weight: normal;
+  text-align: center;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.white {
+  color: var(--white);
+}
+
+@media only screen and (max-width: 576px) {
+  .header01 {
+    font-size: 5rem;
+  }
+
+  .header02 {
+    font-size: 3.3rem;
+  }
+}

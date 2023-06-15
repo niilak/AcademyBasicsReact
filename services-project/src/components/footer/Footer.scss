@@ -7,7 +7,7 @@ footer {
 .footer__intro {
   margin-top: 3.1rem;
   margin-bottom: 2.5rem;
-  font-size: 26px;
+  font-size: 1.6rem;
 }
 
 .footer__div {
@@ -112,31 +112,31 @@ footer {
   column-gap: 0.75rem;
 }
 
-// @media only screen and (max-width: 1200px) {
-//   footer {
-//     font-size: 16px;
-//   }
-//   .white__box {
-//     font-size: 1.2rem;
-//   }
+@media only screen and (max-width: 1200px) {
+  footer {
+    font-size: 16px;
+  }
+  .white__box {
+    font-size: 1.2rem;
+  }
 
-//   .white__box > img {
-//     padding: 0;
-//   }
-// }
+  .white__box > img {
+    padding: 0;
+  }
+}
 
-// @media only screen and (max-width: 425px) {
-//   .white__box {
-//     font-size: 1rem;
-//   }
+@media only screen and (max-width: 425px) {
+  .white__box {
+    font-size: 1rem;
+  }
 
-//   .white__box > img {
-//     width: 2rem;
-//     padding: 0;
-//   }
-// }
-// @media only screen and (max-width: 340px) {
-//   .white__box > img {
-//     width: 1.7rem;
-//   }
-// }
+  .white__box > img {
+    width: 2rem;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .white__box > img {
+    width: 1.7rem;
+  }
+}

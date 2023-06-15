@@ -12,11 +12,11 @@
 .contact-banner__container p {
   margin-bottom: 1rem;
   opacity: 0.8;
-  font-size: 22px;
+  font-size: 1.3rem;
 }
 .contact-banner__container::before {
   position: absolute;
   content: url("Group1052.png");
-  bottom: -88px;
-  right: 88px;
+  bottom: -5.5rem;
+  right: 5.5rem;
 }/*# sourceMappingURL=contactBanner.css.map */

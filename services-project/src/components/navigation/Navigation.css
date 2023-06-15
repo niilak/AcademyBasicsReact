@@ -34,4 +34,29 @@
   text-align: center;
   margin-left: 8rem;
   border: 1px solid var(--primary-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav__link {
+    justify-content: space-between;
+  }
+  .nav-lng__btn {
+    margin-left: 4rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header {
+    margin-top: 1.4rem;
+  }
+  .nav__bar {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .header {
+    margin-top: 1rem;
+  }
 }/*# sourceMappingURL=Navigation.css.map */

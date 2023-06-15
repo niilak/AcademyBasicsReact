@@ -1,9 +1,9 @@
-.font-100 {
-  font-size: 100px;
+.header01 {
+  font-size: 6.25rem;
 }
 
-.font-72 {
-  font-size: 72px;
+.header02 {
+  font-size: 4.5rem;
 }
 
 .header-title {
@@ -18,4 +18,13 @@
 
 .white {
   color: var(--white);
+}
+
+@media only screen and (max-width: 576px) {
+  .header01 {
+    font-size: 5rem;
+  }
+  .header02 {
+    font-size: 3.3rem;
+  }
 }/*# sourceMappingURL=header.css.map */

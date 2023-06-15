@@ -1,6 +1,7 @@
-import Header02 from "../title/Header02";
-import "./interestedTopics.css";
+import Header02 from "../shared/title/Header02";
 import Topic from "./topic/Topic";
+
+import "./interestedTopics.css";
 
 function InterestedTopics() {
   return (
