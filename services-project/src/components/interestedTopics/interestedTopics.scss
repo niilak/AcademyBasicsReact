@@ -1,0 +1,13 @@
+.interested-topics__section {
+  width: 100%;
+  margin-top: 7.3rem;
+  margin-bottom: 8rem;
+}
+
+.intereseted-topic__container {
+  display: grid;
+  grid-template-columns: 24% 24% 24%;
+  column-gap: 2rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
