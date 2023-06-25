@@ -1,12 +1,12 @@
 .intro__container {
-  width: 55%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 6.8rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .intro__container img {
   width: 100%;
@@ -16,6 +16,10 @@
 .intro__container p {
   font-size: 1.25rem;
   opacity: 0.8;
+}
+
+.intro_contrent__container {
+  padding: 0 10%;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -34,6 +38,9 @@
   .intro__container img {
     width: 80%;
   }
+  .intro_contrent__container {
+    padding: 0 3%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .intro__container {
@@ -42,6 +49,9 @@
   }
   .intro__container img {
     width: 100%;
+  }
+  .intro_contrent__container {
+    padding: 0;
   }
 }
 @media only screen and (max-width: 768px) {

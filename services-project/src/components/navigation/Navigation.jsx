@@ -3,13 +3,13 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <header class="header container">
-      <nav class="nav">
-        <img src="amplitudo-logo-shape.png" class="logo" alt="Amplitudo" />
-        <img src="burger-menu.svg" class="burger-menu" alt="Menu" />
+    <header className="header container">
+      <nav className="nav">
+        <img src="amplitudo-logo-shape.png" className="logo" alt="Amplitudo" />
+        <img src="burger-menu.svg" className="burger-menu" alt="Menu" />
 
-        <div class="nav__bar">
-          <div class="nav__links">
+        <div className="nav__bar">
+          <div className="nav__links">
             <Link href="#">Home</Link>
             <Link href="#">Services</Link>
             <Link href="#">StartUp</Link>
@@ -17,7 +17,7 @@ function Navigation() {
             <Link href="#">Company</Link>
             <Link href="#">Blog</Link>
           </div>
-          <a class="nav-lng__btn" href="#">
+          <a className="nav-lng__btn" href="#">
             cg
           </a>
         </div>
