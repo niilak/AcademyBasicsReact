@@ -1,4 +1,4 @@
-.contact-banner__container {
+.contact_banner__container {
   padding: 1.5rem 0;
   position: relative;
   display: flex;
@@ -9,12 +9,12 @@
   height: 18rem;
   width: 100%;
 }
-.contact-banner__container p {
+.contact_banner__container p {
   margin-bottom: 1rem;
   opacity: 0.8;
   font-size: 1.3rem;
 }
-.contact-banner__container::before {
+.contact_banner__container::before {
   position: absolute;
   content: url("Group1052.png");
   bottom: -5.5rem;
@@ -22,7 +22,7 @@
 }
 
 @media only screen and (max-width: 1400px) {
-  .contact-banner__container::before {
+  .contact_banner__container::before {
     content: "";
   }
-}/*# sourceMappingURL=contactBanner.css.map */
+} /*# sourceMappingURL=contactBanner.css.map */

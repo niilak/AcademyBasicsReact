@@ -1,4 +1,4 @@
-.contact-banner__container {
+.contact_banner__container {
   padding: 1.5rem 0;
   position: relative;
   display: flex;
@@ -24,7 +24,7 @@
 }
 
 @media only screen and (max-width: 1400px) {
-  .contact-banner__container {
+  .contact_banner__container {
     &::before {
       content: "";
     }
